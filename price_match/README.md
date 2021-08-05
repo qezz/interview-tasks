@@ -1,4 +1,4 @@
-# Cache Lookup and Variations
+# Price Match (Cache Lookup and Variations)
 
 ## Disclaimer
 
@@ -86,7 +86,7 @@ No match with the baseline, and Algorithm suggested the wrong company:
 
 ```rust
 let all_data = [("amazon", 100), ("google", 150)] ... ;
-let predicted = "google";
+let predicted = "amazon";
 let baseline = 200;
 
 Correct: Outcome::WrongResults
