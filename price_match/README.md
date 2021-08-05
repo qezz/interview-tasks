@@ -92,6 +92,22 @@ let baseline = 200;
 Correct: Outcome::WrongResults
 ```
 
+## Disclaimer #2
+
+It seems logical to assume the following situation:
+
+```rust
+let all_data = [("amazon", 200), ("google", 400)] ... ;
+let predicted = "amazon";
+let baseline = 200;
+
+Expected: Outcome::Exact
+```
+
+Although "google" suggested the higher price, the algorithm predicted 
+the buyer for the exact baseline. As of now, **this case is not covered**.
+It is possible that I'll take it into the consideration later.
+
 ## Solutions
 
 - [My solution](src/v1_baseline.rs) - the solution provided by me during the interview
