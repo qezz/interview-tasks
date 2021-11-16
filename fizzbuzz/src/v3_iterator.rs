@@ -1,12 +1,12 @@
 #[derive(Clone, Debug, PartialEq, Eq)]
-enum FizzBuzzItem {
+pub(crate) enum FizzBuzzItem {
     Number(usize),
     Fizz,
     Buzz,
     FizzBuzz,
 }
 
-trait FizzBuzzable {
+pub(crate) trait FizzBuzzable {
     fn fuzz(self) -> FizzBuzzItem;
 }
 
