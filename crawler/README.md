@@ -62,7 +62,7 @@ This version utilizes `deadqueue::unlimited::Queue` as an event queue. External 
 
 ### Tokio (Better, v5)
 
-[v5_tokio_wrong.rs](src/v5_tokio_wrong.rs)
+[v5_tokio_better.rs](src/v5_tokio_better.rs)
 
 `do_crawl_and_return()` finally returns a value!
 
