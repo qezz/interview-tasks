@@ -12,3 +12,5 @@ than could be converted into a complete project.
 - [Brackets](brackets) - Validate that a sequence is a valid brackets
   set. Extended version.
 - [Crawler](crawler) - Node crawler thing
+- [Brackets Parser](brackets-parser) - [Brackets](brackets) validator
+  implemented using `nom` parser.
